@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: miFuente1;
+    src: url(../fuentes/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url(../fuentes/Roboto-Light.ttf);
+    font-weight: 400;
+}
+
+body {
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1 { 
+    font-size: 120px; 
+    color: blue; 
+    font-family:miFuente1;
+}
+
+p, button { 
+    font-size:40px;
+    color: blue; 
+    font-family:miFuente2; 
+}
+
+p{
+    width: 65%;
+    margin: auto;
+    margin-bottom:40px; 
+}
+
+button { 
+    background-color: #0a2ff1; 
+    color: white; 
+    border:3px solid #0a2ff1; 
+    display: block; 
+    margin:auto; 
+    padding:20px;
+    margin-bottom:20px; 
+}
+
+#btn { 
+    background-color: white; 
+    color: #04146c;
+}
