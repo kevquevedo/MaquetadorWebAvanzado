@@ -1,0 +1,91 @@
+* { box-sizing: border-box;}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/TTF/WorkSans-Black.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/TTF/WorkSans-Regular.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/TTF/WorkSans-Bold.ttf);
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    font-family: miFuente;
+}
+
+main, header {
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 1em; 
+}
+
+header { 
+    font-weight: 700;
+}
+#miHeader { 
+    font-weight: 500;
+}
+
+h1,h2 {  
+    color: #094e57;
+}
+h1 { 
+    font-size: calc(100vw / 11); 
+    text-align: center;
+    margin: 0;
+}
+
+h2 { 
+    text-transform: capitalize;  
+    font-size:2em;
+    font-weight: 600;
+}
+
+main { 
+    font-weight: 400;
+    padding:2em;
+    justify-content: space-evenly;
+    height: 90%;
+    align-items: flex-start;
+}
+
+section{
+    width: 28%;
+}
+
+#elementos{
+    width: 60%;
+}
+
+section img { 
+    width: 100%;
+}
+
+footer { 
+    width: 100%; 
+    background-color: #280f91;
+    height: 10vh;
+}
+
+@media (max-width:768px){
+    body { font-size: 1.5em;}
+    * { flex-direction: column;}
+    header, main, footer, section { height: auto; width: 100%; padding: 0.5em;  }
+    footer { height: 50vh;}
+}
+
+@media (max-width:525px){
+    h1 span { font-size: calc(100vw / 4.5); }
+}
