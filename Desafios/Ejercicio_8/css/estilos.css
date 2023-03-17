@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:wght@400;700&family=PT+Serif+Caption&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 20px;
+}
+
+h1{
+    margin: 0;
+    font-family: 'PT Serif Caption', serif;
+    font-weight: 400;
+    font-size: 40pt;
+    color: #0a2ff1;
+}
+
+p, a, li{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    color: #04146c;
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color: #04146c;
+    margin-bottom: 0;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+div p::after {
+    content: '/';
+}
+
+div a{
+    margin-left: auto;
+}
+
+ul:first-of-type li:nth-child(1){
+    list-style-image: url(../img/vector.svg);
+}
+ul:first-of-type li:nth-child(2){
+    list-style-image: url(../img/foto.svg);
+}
+
+ul:last-of-type li:nth-child(1){
+    list-style-image: url(../img/licencia.svg);
+}
+ul:last-of-type li:nth-child(2){
+    list-style-image: url(../img/precio.svg);
+}
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+}
