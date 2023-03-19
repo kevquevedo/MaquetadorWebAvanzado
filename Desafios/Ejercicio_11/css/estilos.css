@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div, h1{
+    display: flex;
+    align-items: center;
+}
+
+div{
+    width: 700px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 70pt;
+    color: #ffffff;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+input{
+    height: 50px;
+    width: 700px;
+    padding: 1em;
+    margin: 0;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 28pt;
+    color: #414166;
+    border: 1px solid aqua;
+}
+
+img{
+    width: 7%;
+    position: relative;
+    right: 70px;
+}
