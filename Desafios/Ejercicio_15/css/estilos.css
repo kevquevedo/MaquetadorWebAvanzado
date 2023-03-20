@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body { font-family: 'PT Sans', sans-serif;}
+
+em { font-style: italic; font-weight: 400;}
+h1 { font-weight: 400; color: #04146c; font-size: 40px;}
+h2 {font-weight: 400; color: #04146c; font-size: 28px; margin-left: 5px;}
+h2 strong { font-weight: 700;}
+h3.regular { font-weight: 400;}
+h3 img, div h2 img { vertical-align: middle;}
+h3 { font-weight:700; color: #04146c; font-size: 40px;}
+div { display: flex;}
+h4{ font-size: 40px; font-weight: 400; color: #0a2ff1; }
+
