@@ -1,0 +1,25 @@
+@import  'fuentes';
+@import  'colores';
+@import 'estructura';
+@import '_animaciones.scss';
+
+body {
+
+    font-family: $fuentePrimaria;
+    font-weight: 300;
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover;
+    color: $colorSecundario;
+}
+
+
+h1 {
+    font-family: $fuenteSecundaria;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+
+
+

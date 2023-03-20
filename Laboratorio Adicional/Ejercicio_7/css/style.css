@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Miniver&family=Open+Sans:wght@300;600&display=swap");
+.principal {
+  margin: auto;
+  background-color: white;
+  filter: opacity(0.5);
+  padding: 1em;
+}
+.principal-iconos span {
+  font-size: 15px;
+}
+
+.iconos {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  display: inline-block;
+}
+
+.iconos-1 {
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+}
+@-webkit-keyframes animacion1 {
+  100% {
+    transform: translate(50%);
+  }
+}
+@keyframes animacion1 {
+  100% {
+    transform: translate(50%);
+  }
+}
+
+.iconos-2 {
+  -webkit-animation-name: animacion2;
+          animation-name: animacion2;
+}
+@-webkit-keyframes animacion2 {
+  100% {
+    transform: translate(100%);
+  }
+}
+@keyframes animacion2 {
+  100% {
+    transform: translate(100%);
+  }
+}
+
+.iconos-3 {
+  -webkit-animation-name: animacion3;
+          animation-name: animacion3;
+}
+@-webkit-keyframes animacion3 {
+  100% {
+    transform: translate(150%);
+  }
+}
+@keyframes animacion3 {
+  100% {
+    transform: translate(150%);
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-image: url(../imagenes/fondo.png);
+  background-size: cover;
+  color: green;
+}
+
+h1 {
+  font-family: "Miniver", cursive;
+  font-size: 3em;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

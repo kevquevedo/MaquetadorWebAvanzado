@@ -1,0 +1,18 @@
+.iconos {
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+display: inline-block;
+}
+
+
+@for $iterador from 1 through 3{
+
+.iconos-#{$iterador}{
+animation-name: animacion#{$iterador};
+@keyframes animacion#{$iterador}{
+   100% { transform: translate(50% * $iterador);}
+}
+}
+
+}

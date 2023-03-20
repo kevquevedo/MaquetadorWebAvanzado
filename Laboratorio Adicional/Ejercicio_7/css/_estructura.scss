@@ -1,0 +1,16 @@
+$contenedor: '.principal'; 
+
+#{$contenedor}{ 
+ margin: auto; 
+ background-color: $colorPrincipal;
+ filter:opacity(0.5);
+ padding: 1em;
+
+&-iconos span {
+font-size: 15px;
+}
+
+}
+
+
+
