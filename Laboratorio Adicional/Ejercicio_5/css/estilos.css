@@ -1,0 +1,39 @@
+
+
+*{box-sizing: border-box;}
+
+div{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:first-of-type{
+    background-color: red;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+div:last-of-type{
+    background-color: green;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+div:first-of-type:hover{
+    background-color: blue;
+}
+
+div:last-of-type:hover{
+    background-color: yellow;
+}
+
+div:hover + div{
+    position: relative;
+    transform: translateX(calc(100%*5));
+    transition-timing-function: linear; 
+}
